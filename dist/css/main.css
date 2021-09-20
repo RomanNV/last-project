@@ -191,7 +191,8 @@ img {
   width: 70px;
   height: 70px;
   color: #fff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  visibility: hidden; }
 
 #main-nav {
   display: flex;
