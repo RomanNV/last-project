@@ -1,6 +1,6 @@
 .container {
 	max-width: 1280px;
-	padding: o 1.5rem;
+	padding: 0 1.5rem;
 	margin: auto;
 	overflow: hidden;
 }
@@ -65,22 +65,6 @@ input[class^="btn-"]:hover {
 	text-align: center;
 }
 
-.my-1 {
-	margin: 1rem 0;
-}
-
-.my-2 {
-	margin: 2rem 0;
-}
-
-.my-3 {
-	margin: 3rem 0;
-}
-
-.my-4 {
-	margin: 4rem 0;
-}
-
 .py-1 {
 	padding: 1rem 0;
 }
@@ -97,12 +81,20 @@ input[class^="btn-"]:hover {
 	padding: 4rem 0;
 }
 
-.bottom-line {
-	height: 2px;
-	width: 3rem;
-	background: #ffbc00;
-	display: block;
-	margin: 0 auto 1rem auto;
+.my-1 {
+	margin: 1rem 0;
+}
+
+.my-2 {
+	margin: 2rem 0;
+}
+
+.my-3 {
+	margin: 3rem 0;
+}
+
+.my-4 {
+	margin: 4rem 0;
 }
 
 .section-title {
@@ -112,6 +104,14 @@ input[class^="btn-"]:hover {
 	text-align: center;
 	font-weight: 100;
 	text-transform: uppercase;
+}
+
+.bottom-line {
+	height: 2px;
+	width: 3rem;
+	background: #ffbc00;
+	display: block;
+	margin: 0 auto 1rem auto;
 }
 
 .items {
@@ -152,6 +152,7 @@ input[class^="btn-"]:hover {
 	height: auto;
 	display: block;
 	transform: translateZ(0);
+	display: block;
 	transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
 }
 .item-image:before {
@@ -184,8 +185,8 @@ input[class^="btn-"]:hover {
 	transition-delay: 300ms;
 }
 .item-text-wrap {
-	width: 100%;
 	position: absolute;
+	width: 100%;
 	top: 50%;
 	transform: translateY(-50%);
 }
@@ -232,8 +233,8 @@ img {
 }
 
 #logo {
-	height: 70px;
 	width: 70px;
+	height: 70px;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -265,7 +266,7 @@ img {
 }
 
 #header-home {
-	background: url("/dist/img/showcase.jpg") no-repeat center right/cover;
+	background: url("../img/showcase.jpg") no-repeat center right/cover;
 	height: 100vh;
 	color: #fff;
 }
@@ -279,7 +280,7 @@ img {
 }
 
 #header-inner {
-	background: url("/dist/img/showcase.jpg") no-repeat 100% 20% / cover;
+	background: url("../img/showcase.jpg") no-repeat 100% 20% / cover;
 	height: 5.5rem;
 	border-bottom: 3px solid #ffbc00;
 }
@@ -359,6 +360,7 @@ img {
 }
 #home-c .process-icon:hover .process-step {
 	background: #333;
+	color: #fff;
 }
 
 #about-a .about-info {
@@ -376,7 +378,7 @@ img {
 #about-a .bio {
 	grid-area: bio;
 	border-left: 3px solid #ffbc00;
-	padding: 0.6rem;
+	padding: 0.8rem;
 }
 
 #about-a .award-1 {
@@ -544,8 +546,8 @@ img {
 	#home-a .specials,
 	#home-b .stats,
 	#home-c .process,
-	#contact-b .contact-info,
 	#about-d .testimonials,
+	#contact-b .contact-info,
 	.items {
 		grid-template-columns: 1fr;
 	}
